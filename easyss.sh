@@ -1,6 +1,6 @@
 #!/bin/sh
 
-OPTS=`getopt --long help,port:,password:,method -n 'parse-options' -- "$@"`
+OPTS=`getopt --long help,port:,password:,method: -n 'parse-options' -- "$@"`
 
 PORT=
 PASSWORD=
